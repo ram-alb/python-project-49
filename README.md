@@ -6,10 +6,11 @@
 ## Install
 [![asciicast](https://asciinema.org/a/546301.svg)](https://asciinema.org/a/546301)
 
-
 ## Brain-even game
 [![asciicast](https://asciinema.org/a/546326.svg)](https://asciinema.org/a/546326)
 
-
 ## Brain-calc game
 [![asciicast](https://asciinema.org/a/546327.svg)](https://asciinema.org/a/546327)
+
+## Brain-gcd game
+[![asciicast](https://asciinema.org/a/546364.svg)](https://asciinema.org/a/546364)
