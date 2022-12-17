@@ -1,5 +1,5 @@
 from brain_games.games_engine import play_game
-from brain_games.games.brain_even import get_game_rules, get_question_and_answer
+from brain_games.games.brain_calc import get_game_rules, get_question_and_answer
 
 
 def main():
