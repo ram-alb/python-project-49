@@ -1,7 +1,7 @@
 from random import randint
 
 
-def get_game_rules():
+def gcd_rules():
     return 'Find the greatest common divisor of given numbers.'
 
 
@@ -18,7 +18,7 @@ def get_gcd(number1, number2):
     return min_num
 
 
-def get_question_and_answer():
+def gcd_question_and_answer():
     min_number = 1
     max_number = 100
 

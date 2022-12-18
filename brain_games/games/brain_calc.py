@@ -1,11 +1,11 @@
 from random import randint
 
 
-def get_game_rules():
+def get_calc_rules():
     return 'What is the result of the expression?'
 
 
-def get_question_and_answer():
+def calc_question_and_answer():
     min_number = 0
     max_number = 10
 
