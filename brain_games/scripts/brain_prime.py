@@ -1,5 +1,8 @@
+from brain_games.games.brain_prime import (
+    prime_question_and_answer,
+    prime_rules,
+)
 from brain_games.games_engine import play_game
-from brain_games.games.brain_prime import prime_rules, prime_question_and_answer
 
 
 def prime_main():

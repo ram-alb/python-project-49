@@ -28,7 +28,10 @@ def play_game(get_game_rules, get_question_and_answer):
         if is_answer_correct(user_answer, right_answer):
             print('Correct!')
         else:
-            print(f'{user_answer} is wrong answer ;(. Correct answer was {right_answer}.')
+            print(
+                f'{user_answer} is wrong answer ;(. '
+                f'Correct answer was {right_answer}.'
+            )
             break
         rounds_number -= 1
 

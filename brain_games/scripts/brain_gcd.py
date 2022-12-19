@@ -1,4 +1,4 @@
-from brain_games.games.brain_gcd import gcd_rules, gcd_question_and_answer
+from brain_games.games.brain_gcd import gcd_question_and_answer, gcd_rules
 from brain_games.games_engine import play_game
 
 
