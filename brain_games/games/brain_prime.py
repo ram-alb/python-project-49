@@ -18,3 +18,7 @@ def prime_question_and_answer():
     question = randint(min_number, max_number)
     answer = 'yes' if is_prime(question) else 'no'
     return (question, answer)
+
+
+def prime():
+    return prime_rules, prime_question_and_answer

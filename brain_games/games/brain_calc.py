@@ -1,7 +1,7 @@
 from random import randint
 
 
-def get_calc_rules():
+def calc_rules():
     return 'What is the result of the expression?'
 
 
@@ -28,3 +28,7 @@ def calc_question_and_answer():
         answer = first_number * second_number
 
     return (question, answer)
+
+
+def calc():
+    return calc_rules, calc_question_and_answer

@@ -29,3 +29,7 @@ def gcd_question_and_answer():
     gcd = get_gcd(number1, number2)
 
     return (question, gcd)
+
+
+def gcd():
+    return gcd_rules, gcd_question_and_answer

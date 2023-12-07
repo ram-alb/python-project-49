@@ -33,3 +33,7 @@ def progression_question_and_answer():
     question = ' '.join([str(item) for item in progression])
 
     return (question, answer)
+
+
+def progression():
+    return progression_rules, progression_question_and_answer
