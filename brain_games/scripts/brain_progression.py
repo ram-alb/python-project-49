@@ -1,4 +1,4 @@
-from brain_games.games.brain_progression import progression
+from brain_games.games.progression import progression
 from brain_games.games_engine import play_game
 
 

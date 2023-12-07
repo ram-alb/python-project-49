@@ -1,4 +1,4 @@
-from brain_games.games.brain_gcd import gcd
+from brain_games.games.gcd import gcd
 from brain_games.games_engine import play_game
 
 

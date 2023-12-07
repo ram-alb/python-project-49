@@ -1,4 +1,4 @@
-from brain_games.games.brain_calc import calc
+from brain_games.games.calc import calc
 from brain_games.games_engine import play_game
 
 
