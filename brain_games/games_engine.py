@@ -4,13 +4,13 @@ from brain_games.cli import welcome_user
 
 def play_game(game):
     rounds_number = 3
-    rules, question_and_answer = game()
+    rules, get_question_and_answer = game()
 
     user_name = welcome_user()
-    print(rules())
+    print(rules)
 
     while rounds_number:
-        question, right_answer = question_and_answer()
+        question, right_answer = get_question_and_answer()
         print(f'Question: {question}')
 
         user_answer = prompt.string('Your answer: ')

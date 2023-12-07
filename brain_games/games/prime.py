@@ -1,8 +1,6 @@
 from random import randint
 
-
-def prime_rules():
-    return 'Answer "yes" if given number is prime. Otherwise answer "no".'
+prime_rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):
@@ -12,13 +10,13 @@ def is_prime(number):
     return divisor == number
 
 
-def prime_question_and_answer():
+def get_prime_question_and_answer():
     min_number = 2
     max_number = 100
     question = randint(min_number, max_number)
     answer = 'yes' if is_prime(question) else 'no'
-    return (question, answer)
+    return question, answer
 
 
 def prime():
-    return prime_rules, prime_question_and_answer
+    return prime_rules, get_prime_question_and_answer

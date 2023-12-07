@@ -1,8 +1,6 @@
 from random import randint
 
-
-def progression_rules():
-    return 'What number is missing in the progression?'
+progression_rules = 'What number is missing in the progression?'
 
 
 def get_step():
@@ -16,10 +14,10 @@ def get_border_values(step, progression_length):
     max_first_item = 100
     first_item = randint(min_first_item, max_first_item)
     last_item = first_item + step * (progression_length - 1)
-    return (first_item, last_item)
+    return first_item, last_item
 
 
-def progression_question_and_answer():
+def get_progression_question_and_answer():
     progression_length = 10
 
     step = get_step()
@@ -32,8 +30,8 @@ def progression_question_and_answer():
     progression[missed_value_index] = '..'
     question = ' '.join([str(item) for item in progression])
 
-    return (question, answer)
+    return question, answer
 
 
 def progression():
-    return progression_rules, progression_question_and_answer
+    return progression_rules, get_progression_question_and_answer

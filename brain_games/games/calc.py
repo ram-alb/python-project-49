@@ -1,11 +1,9 @@
 from random import randint
 
-
-def calc_rules():
-    return 'What is the result of the expression?'
+calc_rules = 'What is the result of the expression?'
 
 
-def calc_question_and_answer():
+def get_calc_question_and_answer():
     min_number = 0
     max_number = 10
 
@@ -27,8 +25,8 @@ def calc_question_and_answer():
         question = f'{first_number} * {second_number}'
         answer = first_number * second_number
 
-    return (question, answer)
+    return question, answer
 
 
 def calc():
-    return calc_rules, calc_question_and_answer
+    return calc_rules, get_calc_question_and_answer

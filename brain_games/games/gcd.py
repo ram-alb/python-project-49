@@ -1,8 +1,6 @@
 from random import randint
 
-
-def gcd_rules():
-    return 'Find the greatest common divisor of given numbers.'
+gcd_rules = 'Find the greatest common divisor of given numbers.'
 
 
 def get_gcd(number1, number2):
@@ -18,7 +16,7 @@ def get_gcd(number1, number2):
     return min_num
 
 
-def gcd_question_and_answer():
+def get_gcd_question_and_answer():
     min_number = 1
     max_number = 100
 
@@ -28,8 +26,8 @@ def gcd_question_and_answer():
     question = f'{number1} {number2}'
     gcd = get_gcd(number1, number2)
 
-    return (question, gcd)
+    return question, gcd
 
 
 def gcd():
-    return gcd_rules, gcd_question_and_answer
+    return gcd_rules, get_gcd_question_and_answer
