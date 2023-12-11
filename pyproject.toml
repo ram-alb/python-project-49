@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Games of the Mind is a set of five console games designed based on the principles of popular mobile brain-training applications."
 authors = ["Ramil Albakov <ramil.albakov2@gmail.com>"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
