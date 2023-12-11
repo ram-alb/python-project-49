@@ -18,17 +18,19 @@ make package-install
 The example of installing the program is below
 [![asciicast](https://asciinema.org/a/546301.svg)](https://asciinema.org/a/546301)
 
-## Brain-even game
+## How to play games?
+Check the asciinemas below
+### Brain-even game
 [![asciicast](https://asciinema.org/a/546326.svg)](https://asciinema.org/a/546326)
 
-## Brain-calc game
+### Brain-calc game
 [![asciicast](https://asciinema.org/a/546327.svg)](https://asciinema.org/a/546327)
 
-## Brain-gcd game
+### Brain-gcd game
 [![asciicast](https://asciinema.org/a/546364.svg)](https://asciinema.org/a/546364)
 
-## Brain-progressin
+### Brain-progressin
 [![asciicast](https://asciinema.org/a/546457.svg)](https://asciinema.org/a/546457)
 
-## Brain-prime
+### Brain-prime
 [![asciicast](https://asciinema.org/a/546468.svg)](https://asciinema.org/a/546468)
