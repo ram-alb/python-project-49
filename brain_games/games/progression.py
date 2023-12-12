@@ -1,6 +1,6 @@
 from random import randint
 
-progression_rules = 'What number is missing in the progression?'
+PROGRESSION_RULES = 'What number is missing in the progression?'
 
 
 def get_step():
@@ -17,7 +17,10 @@ def get_border_values(step, progression_length):
     return first_item, last_item
 
 
-def get_progression_question_and_answer():
+def get_game_data(is_rules=False):
+    if is_rules:
+        return PROGRESSION_RULES
+
     progression_length = 10
 
     step = get_step()
@@ -31,7 +34,3 @@ def get_progression_question_and_answer():
     question = ' '.join([str(item) for item in progression])
 
     return question, answer
-
-
-def progression():
-    return progression_rules, get_progression_question_and_answer
