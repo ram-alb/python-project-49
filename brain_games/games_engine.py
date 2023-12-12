@@ -4,7 +4,7 @@ from brain_games.cli import welcome_user
 
 def play_game(game):
     rounds_number = 3
-    rules = game(is_rules=True)
+    rules = game(get_rules=True)
 
     user_name = welcome_user()
     print(rules)

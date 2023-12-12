@@ -7,8 +7,8 @@ def is_even(number):
     return number % 2 == 0
 
 
-def get_game_data(is_rules=False):
-    if is_rules:
+def get_game_data(get_rules=False):
+    if get_rules:
         return EVEN_RULES
     question_number = randint(1, 100)
     answer = 'yes' if is_even(question_number) else 'no'

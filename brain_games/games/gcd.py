@@ -16,8 +16,8 @@ def get_gcd(number1, number2):
     return min_num
 
 
-def get_game_data(is_rules=False):
-    if is_rules:
+def get_game_data(get_rules=False):
+    if get_rules:
         return GCD_RULES
     min_number = 1
     max_number = 100

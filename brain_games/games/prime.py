@@ -10,8 +10,8 @@ def is_prime(number):
     return divisor == number
 
 
-def get_game_data(is_rules=False):
-    if is_rules:
+def get_game_data(get_rules=False):
+    if get_rules:
         return PRIME_RULES
     min_number = 2
     max_number = 100
