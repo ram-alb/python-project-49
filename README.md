@@ -18,6 +18,14 @@ make package-install
 The example of installing the program is below
 [![asciicast](https://asciinema.org/a/546301.svg)](https://asciinema.org/a/546301)
 
+## Uninstall
+To install the program, use the following commands:
+```
+python3 -m pip uninstall hexlet-code
+```
+The example of uninstalling the program is below
+[![asciicast](https://asciinema.org/a/626401.svg)](https://asciinema.org/a/626401)
+
 ## How to play games?
 Check the asciinemas below
 ### Brain-even game
